@@ -14,7 +14,7 @@ let data;
             if(index == -1) {
                 h1.innerHTML = 'Covid 19 Global Cases';
                 // console.log(data.data.Global);
-
+                p.innerHTML = '';
                 const global = data.data.Global
            
                 glob[0].innerHTML = `TotalConfirmed <br> ${global.TotalConfirmed}`
